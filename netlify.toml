@@ -1,0 +1,7 @@
+# Netlify builds the site itself after each push to GitHub.
+[build]
+  command = "node build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"

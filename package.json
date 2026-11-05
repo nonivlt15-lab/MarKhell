@@ -1,0 +1,10 @@
+{
+  "name": "marc-hell-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Marc-Hell demo store, student project (IAE Nantes, English oral 2026)",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "node build.mjs && npx --yes serve dist"
+  }
+}
